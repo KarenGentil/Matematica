@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="circulo.css">
-    <title>circulo</title>
+    <t</title>
 </head>
 <body>
     <header>
-        <h1>circulo</h1>
+        <a href="index.html"> <h1>Cubo</h1></a>
     </header>
 
     <main>
         <form>
-            <label for="calculo">
-                <input type="number" id="raio" name="raio" placeholder="Digite altura">
+            <label for="Calculo">
+                <input type="number" id="cubo" name="cubo" placeholder="Digite o valor">
             </label>
 
             <input type="submit" value="Calcular" id="btn">
@@ -26,27 +26,23 @@
     </main>
 
     <script>
-          var pi = Math.PI
+         
+       
           var botao = document.querySelector("#btn")
           
           function calculo(event){
             event.preventDefault()
 
-              var r = document.querySelector("#raio").value
+              var r = document.querySelector("#cubo").value
               var resposta = document.querySelector("#res")
            
-              resposta.innerHTML = `O valor da área do circulo é ${pi*(r*r)}`
+              resposta.innerHTML = `resultado  ${r *r *r}`
         }
 
         botao.addEventListener("click", calculo)
 
 
         
-
-
-       /*  alert("O valor da área do circulo é" + pi*(r*r)) */
-
-
     </script>
 </body>
 </html>

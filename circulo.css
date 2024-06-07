@@ -10,32 +10,48 @@ body {
     height: 100vh;
 }
 
-.formas{
-    display: flex;
-    flex-wrap: wrap;
-    width: 800px;
-    margin: auto;
-    
-
-}
 
 h2{
     text-align: center;
     font-size: 1.5rem;
     font-weight: 300;
+    margin: 100px;
 }
 
-img{
-    width: 200px;
-    height: 200px;
-    cursor: pointer;
-    /*filter: grayscale(0.5); mudar de cor */
+#btn{
+    width:150px;
+    height: 50px;
+   background-color: aqua;
+}
+input{
+    background-color: rgba(0, 255, 255, 0.281);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+   
 }
 
+#calculo{
+    width:150px;
+    height: 50px;
+    margin: 80px;
 
-main {
-    flex: 1;
+
+   
 }
+#calculo{
+    width:150px;
+    height: 50px;
+    margin: 80px;
+
+
+   
+}
+
 
 header {
  background: #2cc9afb7;
@@ -47,9 +63,6 @@ header h1{
     text-align: center;
 }
 
-main .content p{
-    margin-bottom: 10px;
-}
 
    
 footer p {
