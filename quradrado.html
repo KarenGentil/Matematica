@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="circulo.css">
-    <title>Poligono</title>
+    <title>Quadrado</title>
 </head>
 <body>
     <header>
@@ -14,14 +14,11 @@
     <main>
         <form>
             
-            <label for="perimetro">                
-                <input type="number" id="perimetro" name="perimetro" placeholder="Digite do perímetro ">
+            <label for="lado">                
+                <input type="number" id="lado" name="lado" placeholder="Digite do lado ">
             </label>
 
-            <label for="apotema">
-                <input type="number" id="apotema" name="apotema" placeholder="Digite apótema">
-            </label>
-
+            
             <input type="submit" value="Calcular" id="btn">
         </form>
 
@@ -36,9 +33,8 @@
           function calculo(event){
             event.preventDefault()
             
-              var apotema = document.querySelector("#apotema").value
-              var perimetro = document.querySelector("#perimetro").value
-              var area = 1/2 * perimetro*apotema
+              var lado = document.querySelector("#lado").value 
+              var area =  lado*2
 
               console.log(typeof(comprimento));
              
