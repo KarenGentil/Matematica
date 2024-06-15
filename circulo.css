@@ -9,6 +9,9 @@ body {
     flex-direction: column;
     height: 100vh;
 }
+h1{
+    
+color: black;}
 
 
 h2{
@@ -16,16 +19,27 @@ h2{
     font-size: 1.5rem;
     font-weight: 300;
     margin: 100px;
+    color: rgb(37, 6, 20);
+    text-decoration: underline;
+
 }
 
 #btn{
-    width:150px;
+    width:200px;
     height: 50px;
-   background-color: aqua;
+   background-color: rgba(255, 0, 230, 0.703);
+   margin: 20px;
+   border-radius: 5px;
 }
 input{
-    background-color: rgba(0, 255, 255, 0.281);
+    background-color: rgba(255, 3, 192, 0.381);
+    width:200px;
+    height: 50px;
+   border-radius: 5px;
+    margin: 50px;
 }
+
+
 form{
     display: flex;
     flex-direction: column;
@@ -46,7 +60,7 @@ form{
 
 
 header {
- background: #2cc9afb7;
+ background: #ff00c3b7;
  padding: 20px;
  margin-bottom: 20px;   
 }
@@ -59,5 +73,5 @@ header h1{
    
 footer p {
     text-align: center;
-   
+   padding: 300px;
 }
